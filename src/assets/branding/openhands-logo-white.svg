@@ -1,0 +1,18 @@
+<svg width="47" height="30" viewBox="0 0 94 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylish V shape - white variant -->
+  <defs>
+    <filter id="glowWhite">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Left arm of V -->
+  <path d="M8 6 L38 54 L47 54 L22 6 Z" fill="white" filter="url(#glowWhite)"/>
+  <!-- Right arm of V -->
+  <path d="M86 6 L56 54 L47 54 L72 6 Z" fill="white" filter="url(#glowWhite)"/>
+  <!-- Accent dot at bottom -->
+  <circle cx="47" cy="54" r="3.5" fill="white" opacity="0.9"/>
+</svg>
